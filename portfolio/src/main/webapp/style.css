@@ -7,3 +7,9 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url()
+}

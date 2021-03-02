@@ -1,11 +1,10 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
 
 #greeting-container {
   margin-top: 20px;
+}
+
+#quote-container {
+    margin-top: 20px;;
 }
 
 .container{
@@ -47,4 +46,45 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #333;
+}
+.stuff h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgba(66, 53, 44, 0.867);
+}
+.stuff p{
+    font-size: 30px;
+    color: #333;
+}
+.stuff{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25;
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.social-links a{
+    text-decoration: none;
+    color: rgba(66, 53, 44, 0.867);
+    padding-right: 20px;
+    font-size: 14px;
 }

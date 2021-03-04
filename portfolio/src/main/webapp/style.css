@@ -47,6 +47,10 @@ nav ul li a{
     text-decoration: none;
     color: #333;
 }
+.stuff{
+    margin-left: 10%;
+    margin-top: 10%;
+}
 .stuff h1{
     font-size: 60px;
     font-weight: 100;
@@ -55,18 +59,15 @@ nav ul li a{
     color: rgba(66, 53, 44, 0.867);
 }
 .stuff p{
-    font-size: 30px;
+    font-size: 15px;
     color: #333;
 }
-.stuff{
-    margin-left: 10%;
-    margin-top: 10%;
-}
+
 .arrow-icons{
     margin-top: 40px;
     display: flex;
 }
-.arrow-icons img{
+.arrow-icons input{
     width: 40px;
     margin-right: 25;
 }

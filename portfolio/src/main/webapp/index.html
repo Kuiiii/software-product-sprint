@@ -5,6 +5,7 @@
     <title>Kui's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="script2.js"></script>
   </head>
   <body>
     <div class="container">
@@ -20,7 +21,16 @@
             <img  src="images/resume4.png" class="resume" >
         </div>
     </div>
-
+    <div>
+        <h1>Get to Know Me</h1>
+        <p>Click this button to learn a fun fact about me.</p>
+        <button onclick="getAbout();">
+            About Me
+        </button>
+        <p id="about-container"></p>
+        <p>Click <a href="/about">here</a> to see the server response directly.</p>
+    </div>
+    
     <div class="content">
         <h1 id="quote-container">My Favorite Marvel Quotes</h1>
         <p>Click to see a random one of my favorite marvel quotes.</p>

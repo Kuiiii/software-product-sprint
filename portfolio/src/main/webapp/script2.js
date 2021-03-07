@@ -1,7 +1,8 @@
-async function getAbout() {
-  const responseFromServer = await fetch('/about');
-  const textFromResponse = await responseFromServer.text();
+async function getQuotes() {
+  const responseFromServer = await fetch('/quotes');
+  const quotes = await responseFromServer.json();
 
-  const aboutContainer = document.getElementById('about-container');
-  aboutContainer.innerText = textFromResponse;
+  const quote = quotes[Math.floor(Math.random() * quotes.length)];
+  const quotesContainer = document.getElementById('quotes-container');
+  quotesContainer.innerHTML = quote;
 }

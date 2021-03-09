@@ -5,6 +5,7 @@
     <title>Kui's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="script2.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,14 +14,23 @@
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="/about">About</a></li>
                     <li><a href="">Projects</a></li>
                 </ul>
             </nav>
-            <img src="images/resume4.png" class="resume">
+            <img  src="images/resume4.png" class="resume" >
         </div>
     </div>
-
+    <div>
+        <h1>My Fave Marvel Quotes</h1>
+        <p>Click this for a random one of my fave Marvel quotes.</p>
+        <button onclick="getQuotes();">
+            Marvel Quote
+        </button>
+        <p id="quotes-container"></p>
+        <p>Click <a href="/quotes">here</a> to see the server response directly.</p>
+    </div>
+    
     <div class="content">
         <h1 id="quote-container">My Favorite Marvel Quotes</h1>
         <p>Click to see a random one of my favorite marvel quotes.</p>
@@ -34,6 +44,7 @@
         <a href="https://www.linkedin.com/in/kui-iruku-b20638169">LINKEDIN</a>
         <a href="https://github.com/Kuiiii">GITHUB</a>
         <a href="https://www.instagram.com/kui_iruku/">INSTAGRAM</a>
-    </div>    
+    </div>
+    
   </body>
 </html>
